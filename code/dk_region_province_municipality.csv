@@ -1,0 +1,100 @@
+region,province,municipality
+Region Hovedstaden,Province Byen København,København
+Region Hovedstaden,Province Byen København,Frederiksberg
+Region Hovedstaden,Province Byen København,Dragør
+Region Hovedstaden,Province Byen København,Tårnby
+Region Hovedstaden,Province Københavns omegn,Albertslund
+Region Hovedstaden,Province Københavns omegn,Ballerup
+Region Hovedstaden,Province Københavns omegn,Brøndby
+Region Hovedstaden,Province Københavns omegn,Gentofte
+Region Hovedstaden,Province Københavns omegn,Gladsaxe
+Region Hovedstaden,Province Københavns omegn,Glostrup
+Region Hovedstaden,Province Københavns omegn,Herlev
+Region Hovedstaden,Province Københavns omegn,Hvidovre
+Region Hovedstaden,Province Københavns omegn,Høje-Taastrup
+Region Hovedstaden,Province Københavns omegn,Ishøj
+Region Hovedstaden,Province Københavns omegn,Lyngby-Taarbæk
+Region Hovedstaden,Province Københavns omegn,Rødovre
+Region Hovedstaden,Province Københavns omegn,Vallensbæk
+Region Hovedstaden,Province Nordsjælland,Allerød
+Region Hovedstaden,Province Nordsjælland,Egedal
+Region Hovedstaden,Province Nordsjælland,Fredensborg
+Region Hovedstaden,Province Nordsjælland,Frederikssund
+Region Hovedstaden,Province Nordsjælland,Furesø
+Region Hovedstaden,Province Nordsjælland,Gribskov
+Region Hovedstaden,Province Nordsjælland,Halsnæs
+Region Hovedstaden,Province Nordsjælland,Helsingør
+Region Hovedstaden,Province Nordsjælland,Hillerød
+Region Hovedstaden,Province Nordsjælland,Hørsholm
+Region Hovedstaden,Province Nordsjælland,Rudersdal
+Region Hovedstaden,Province Bornholm,Bornholm
+Region Hovedstaden,Province Bornholm,Christiansø
+Region Sjælland,Province Østsjælland,Greve
+Region Sjælland,Province Østsjælland,Køge
+Region Sjælland,Province Østsjælland,Lejre
+Region Sjælland,Province Østsjælland,Roskilde
+Region Sjælland,Province Østsjælland,Solrød
+Region Sjælland,Province Vest- og Sydsjælland,Faxe
+Region Sjælland,Province Vest- og Sydsjælland,Guldborgsund
+Region Sjælland,Province Vest- og Sydsjælland,Holbæk
+Region Sjælland,Province Vest- og Sydsjælland,Kalundborg
+Region Sjælland,Province Vest- og Sydsjælland,Lolland
+Region Sjælland,Province Vest- og Sydsjælland,Næstved
+Region Sjælland,Province Vest- og Sydsjælland,Odsherred
+Region Sjælland,Province Vest- og Sydsjælland,Ringsted
+Region Sjælland,Province Vest- og Sydsjælland,Slagelse
+Region Sjælland,Province Vest- og Sydsjælland,Sorø
+Region Sjælland,Province Vest- og Sydsjælland,Stevns
+Region Sjælland,Province Vest- og Sydsjælland,Vordingborg
+Region Syddanmark,Province Fyn,Assens
+Region Syddanmark,Province Fyn,Faaborg-Midtfyn
+Region Syddanmark,Province Fyn,Kerteminde
+Region Syddanmark,Province Fyn,Langeland
+Region Syddanmark,Province Fyn,Middelfart
+Region Syddanmark,Province Fyn,Nordfyns
+Region Syddanmark,Province Fyn,Nyborg
+Region Syddanmark,Province Fyn,Odense
+Region Syddanmark,Province Fyn,Svendborg
+Region Syddanmark,Province Fyn,Ærø
+Region Syddanmark,Province Sydjylland,Billund
+Region Syddanmark,Province Sydjylland,Esbjerg
+Region Syddanmark,Province Sydjylland,Fanø
+Region Syddanmark,Province Sydjylland,Fredericia
+Region Syddanmark,Province Sydjylland,Haderslev
+Region Syddanmark,Province Sydjylland,Kolding
+Region Syddanmark,Province Sydjylland,Sønderborg
+Region Syddanmark,Province Sydjylland,Tønder
+Region Syddanmark,Province Sydjylland,Varde
+Region Syddanmark,Province Sydjylland,Vejen
+Region Syddanmark,Province Sydjylland,Vejle
+Region Syddanmark,Province Sydjylland,Aabenraa
+Region Midtjylland,Province Østjylland,Favrskov
+Region Midtjylland,Province Østjylland,Hedensted
+Region Midtjylland,Province Østjylland,Horsens
+Region Midtjylland,Province Østjylland,Norddjurs
+Region Midtjylland,Province Østjylland,Odder
+Region Midtjylland,Province Østjylland,Randers
+Region Midtjylland,Province Østjylland,Samsø
+Region Midtjylland,Province Østjylland,Silkeborg
+Region Midtjylland,Province Østjylland,Skanderborg
+Region Midtjylland,Province Østjylland,Syddjurs
+Region Midtjylland,Province Østjylland,Aarhus
+Region Midtjylland,Province Vestjylland,Herning
+Region Midtjylland,Province Vestjylland,Holstebro
+Region Midtjylland,Province Vestjylland,Ikast-Brande
+Region Midtjylland,Province Vestjylland,Lemvig
+Region Midtjylland,Province Vestjylland,Ringkøbing-Skjern
+Region Midtjylland,Province Vestjylland,Skive
+Region Midtjylland,Province Vestjylland,Struer
+Region Midtjylland,Province Vestjylland,Viborg
+Region Nordjylland,Province Nordjylland,Brønderslev
+Region Nordjylland,Province Nordjylland,Frederikshavn
+Region Nordjylland,Province Nordjylland,Hjørring
+Region Nordjylland,Province Nordjylland,Jammerbugt
+Region Nordjylland,Province Nordjylland,Læsø
+Region Nordjylland,Province Nordjylland,Mariagerfjord
+Region Nordjylland,Province Nordjylland,Morsø
+Region Nordjylland,Province Nordjylland,Rebild
+Region Nordjylland,Province Nordjylland,Thisted
+Region Nordjylland,Province Nordjylland,Vesthimmerlands
+Region Nordjylland,Province Nordjylland,Aalborg
