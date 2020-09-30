@@ -2,10 +2,9 @@
 #
 # Jonas Schöley
 #
-# 2020-09-21
+# 2020-09-30
 #
 # Aggregate weekly deaths and population data into national level.
-
 
 # Init ------------------------------------------------------------
 
@@ -73,7 +72,7 @@ ExportFiguresFromList <- function(lst, path, ...) {
 # Load ------------------------------------------------------------
 
 deaths_population <-
-  readRDS('out/deaths_population.RData')
+  readRDS('out/2020-09-30-deaths_population.RData')
 
 dk_weekly_deaths_quarterly_population <-
   deaths_population %>%
@@ -92,11 +91,11 @@ dk_weekly_deaths_quarterly_population <-
 fig$population <-
   dk_weekly_deaths_quarterly_population %>%
   ggplot(aes(x = date)) +
-  geom_point(aes(y = population_quarterly, color = sex), size = 0.1) +
+  geom_line(aes(y = population_quarterly, color = sex)) +
   facet_wrap(~age_group, scales = 'free_y') +
   scale_x_date(
     date_minor_breaks = '1 year',
-    date_breaks = '2 years',
+    date_breaks = '3 years',
     date_labels = '%y'
   ) +
   scale_y_continuous(
@@ -106,7 +105,9 @@ fig$population <-
   labs(
     y = 'Quarterly population count (thousands)',
     x = 'year'
-  )
+  ) +
+  theme_minimal() +
+  theme(legend.position = c(0.8,0.05), legend.title = element_blank())
 
 fig$deaths <-
   dk_weekly_deaths_quarterly_population %>%
@@ -122,13 +123,15 @@ fig$deaths <-
   labs(
     y = 'Weekly death counts',
     x = 'year'
-  )
+  ) +
+  theme_minimal() +
+  theme(legend.position = c(0.8,0.05), legend.title = element_blank())
 
 # Export ----------------------------------------------------------
 
 save(
   dk_weekly_deaths_quarterly_population,
-  file = 'out/dk_weekly_deaths_quarterly_population.RData'
+  file = paste0('out/', Sys.Date(), '-dk_weekly_deaths_quarterly_population.RData')
 )
 
 ExportFiguresFromList(fig, 'out', add_date = TRUE)

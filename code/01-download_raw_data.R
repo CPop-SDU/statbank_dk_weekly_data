@@ -2,7 +2,7 @@
 #
 # Jonas Schöley
 #
-# 2020-09-21
+# 2020-09-30
 #
 # Download data on weekly death counts and quarterly population
 # sizes by sex and region from StatBank Denmark.
@@ -153,4 +153,4 @@ dat$folk1b <-
     chunk_var = 'ALDER'
   )
 
-save(dat, file = 'data/raw/dodc2_and_folk1b')
+save(dat, file = 'out/dodc2_and_folk1b.RData')

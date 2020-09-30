@@ -1,8 +1,8 @@
-# Download and Danish weekly death and population counts
+# Merge population and deaths
 #
 # Jonas Schöley
 #
-# 2020-09-21
+# 2020-09-30
 #
 # Merge population and death count data and summarize into
 # province aggregation level.
@@ -20,7 +20,7 @@ cnst <- list(
   # this is where we want our time-series to start
   # this is the origin of the "weeks_since_origin" variable
   origin_date = lubridate::as_date('2007-12-31'),
-  week_epi_year_starts = 40
+  week_epi_year_starts = 27
 )
 
 # Functions -------------------------------------------------------
@@ -127,7 +127,7 @@ codebook$municipality <-
 
 # Load raw data ---------------------------------------------------
 
-load('data/raw/dodc2_and_folk1b')
+load('out/dodc2_and_folk1b.RData')
 
 # Prepare weekly death counts -------------------------------------
 
@@ -344,4 +344,4 @@ fig$deaths <-
 
 # Export ----------------------------------------------------------
 
-saveRDS(dat$deaths_population, 'out/deaths_population.RData')
+saveRDS(dat$deaths_population, paste0('out/', Sys.Date(), '-deaths_population.RData'))
